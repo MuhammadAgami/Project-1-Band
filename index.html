@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Band</title>
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato"
+    />
+  </head>
+
+  <body>
+    <!-- Navigation bar -->
+    <div class="tool-par">
+      <ul class="lists">
+        <li>
+          <a href="#main">Home</a>
+          <div class="tag"><i class="fa-solid fa-bars"></i></div>
+        </li>
+        <li><a href="#band">Band</a></li>
+        <li><a href="#tour">Tour</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="last">
+          <a href="#">More <i class="fa-solid fa-caret-down"></i></a>
+          <ul class="sub-list">
+            <li><a href="#">Merchandise</a></li>
+            <li><a href="#">Extra</a></li>
+            <li><a href="#">Media</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="search"><i class="fa-solid fa-magnifying-glass"></i></div>
+    </div>
+
+    <!-- Main section -->
+    <div class="main" id="main">
+      <img src="imges/chicago.jpg" alt="Chicago Image" />
+      <div class="content-text">
+        <h3>Chicago</h3>
+        <p>Thank you, Chicago - A night we won't forget.</p>
+      </div>
+    </div>
+
+    <!-- Band section -->
+    <div class="band" id="band">
+      <div class="container">
+        <h2>The Band</h2>
+        <span>We Love Music</span>
+        <p>
+          We have created a fictional band website. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua...
+        </p>
+        <div class="box-content">
+          <div class="box">
+            <div>Name</div>
+            <img src="imges/bandmember.jpg" alt="Band Member" />
+          </div>
+          <div class="box">
+            <div>Name</div>
+            <img src="imges/bandmember.jpg" alt="Band Member" />
+          </div>
+          <div class="box">
+            <div>Name</div>
+            <img src="imges/bandmember.jpg" alt="Band Member" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tour section -->
+    <div class="tour" id="tour">
+      <div class="container">
+        <h2>Tour Dates</h2>
+        <span>Remember to book your tickets!</span>
+        <div class="data">
+          <div>September <strong>Sold out</strong></div>
+          <hr />
+          <div>October <strong>Sold out</strong></div>
+          <hr />
+          <div>November <strong>3</strong></div>
+        </div>
+        <div class="box-content">
+          <div class="box">
+            <img src="imges/newyork.jpg" alt="New York" />
+            <div class="text-content">
+              <h5>New York</h5>
+              <span>Fri 27 Nov 2016</span>
+              <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+              <button onclick="clicks()">Buy Tickets</button>
+            </div>
+          </div>
+          <div class="box">
+            <img src="imges/paris.jpg" alt="Paris" />
+            <div class="text-content">
+              <h5>Paris</h5>
+              <span>Sat 28 Nov 2016</span>
+              <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+              <button onclick="clicks()">Buy Tickets</button>
+            </div>
+          </div>
+          <div class="box">
+            <img src="imges/sanfran.jpg" alt="San Francisco" />
+            <div class="text-content">
+              <h5>San Francisco</h5>
+              <span>Sun 29 Nov 2016</span>
+              <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+              <button onclick="clicks()">Buy Tickets</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact section -->
+    <div class="contact" id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <span>Fan? Drop a note!</span>
+        <div class="subcontent">
+          <div class="resent">
+            <div>
+              <i class="fa-solid fa-location-dot"></i>
+              <p>Damnhour, Egypt</p>
+            </div>
+            <div>
+              <i class="fa-solid fa-phone"></i>
+              <p>Phone: +201095637439</p>
+            </div>
+            <div>
+              <i class="fa-solid fa-envelope"></i>
+              <p>Email: mohamedagami596@mail.com</p>
+            </div>
+          </div>
+          <form action="#">
+            <div>
+              <div class="text-email">
+                <input type="text" required placeholder="Name" name="Name" />
+                <input type="email" required placeholder="Email" name="Email" />
+              </div>
+            </div>
+            <input
+              type="text"
+              required
+              placeholder="Message"
+              name="Message"
+              class="three"
+            />
+            <input type="submit" value="SEND" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Image section -->
+    <div class="imges">
+      <img src="imges/map.jpg" alt="Map Image" />
+    </div>
+
+    <!-- Footer section -->
+    <div class="icon">
+      <footer>
+        <a href="https://www.facebook.com/MuhammadAgami88" target="_blank">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/muhammadagami88/" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://github.com/MuhammadAgami" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.pinterest.com/muhammadagami/" target="_blank">
+          <i class="fa-brands fa-pinterest"></i>
+        </a>
+        <a href="https://x.com/muhammadagami" target="_blank">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/muhammadagami/" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </footer>
+      <p>Powered by <a href="#">Muhammmad Agami</a></p>
+    </div>
+
+    <!-- Ticket Form -->
+    <section>
+      <h3><i class="fa-solid fa-briefcase"></i> Tickets</h3>
+      <form action="#">
+        <div>
+          <label for="many"
+            ><i class="fa-solid fa-cart-arrow-down"></i> Tickets, $15 per
+            person</label
+          >
+          <input
+            type="text"
+            placeholder="How many?"
+            required
+            name="Many"
+            id="many"
+          />
+        </div>
+        <div>
+          <label for="email"><i class="fa-solid fa-user"></i> Send To</label>
+          <input
+            type="email"
+            placeholder="Enter email"
+            required
+            name="Email"
+            id="email"
+          />
+        </div>
+        <div>
+          <input type="submit" value="PAY✔" />
+        </div>
+      </form>
+      <div class="close" onclick="closes()">
+        <button>Close X</button>
+        <span>Need <a href="#">help?</a></span>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
